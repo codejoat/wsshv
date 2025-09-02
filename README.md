@@ -16,3 +16,7 @@
     - Puppeteer (npm install puppeteer) from inside wsshv
     - ExifTool (sudo apt install libimage-exiftool-perl) this must be installed and available in your system's PATH
     - Run the tool
+
+# Example Output
+    - The 'output/' folder includes sample screenshots and metadata files from a couple of test runs.
+    - Feel free to delete or replace them with your own.
