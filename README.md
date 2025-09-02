@@ -7,10 +7,11 @@
     - verifies embedded metadata
 
 # Usage
-    - node run.js https://example.com
-    - node verify.js example_com   
+    - node run.js https://example.com/exactpage/ (make sure to use the full url path of the exact page)
+    - node verify.js example_com (make sure to just use an underscore, and only example_com from screenshot, not full url, it will produce the hash and timestamp from the metadata)
 
 # Requirements
+    - This is set up for use in a Linux terminal
     - Node.js (sudo apt install nodejs npm)
     - Clone repo, then (cd wsshv)
     - Puppeteer (npm install puppeteer) from inside wsshv
